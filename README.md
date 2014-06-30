@@ -7,7 +7,7 @@
 
 One stop resource for training and onboarding material.
 
-### Sturcture
+### Structure
 
 The content is organized by topic in subdirectories. Individual topics get their own folder. Example:
 
