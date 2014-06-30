@@ -5,11 +5,11 @@
 #  NewsCred Training Materials
 
 
-NewsCred's In-House training materials.
+One stop resource for training and onboarding material.
 
 ### Sturcture
 
-Individual topics get their own folder. Each folder should have a README.md file where all the documentations should be kept. 
+The content is organized by topic in subdirectories. Individual topics get their own folder. Example:
 
 	./node 
       README.MD
