@@ -21,7 +21,7 @@ ____
 
     * [Context and Scope](http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
 
-    * [Event Loop ( Never blocking )](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/EventLoop)
+    * [Event Loop (Never blocking)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/EventLoop)
 
     * [Event based programming](http://code.tutsplus.com/tutorials/event-based-programming-what-async-has-over-sync--net-30027)
 
@@ -30,7 +30,7 @@ ____
 
 * [Introduction to Nodejs](http://www.youtube.com/watch?v=jo_B4LTHi3I)
 
-* [Evented I/O  (Nodes strong point)](http://victorliew.quora.com/Event-driven-programming-in-Node-vs-Traditional-threaded-servers)
+* [Evented I/O (Node's strong point)](http://victorliew.quora.com/Event-driven-programming-in-Node-vs-Traditional-threaded-servers)
  
 * [Pyramid of Doom](http://tritarget.org/blog/2012/11/28/the-pyramid-of-doom-a-javascript-style-trap/
 )
