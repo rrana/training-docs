@@ -11,13 +11,29 @@ You should go through the following document for more introductory information a
 
 Also check out the AWS products page: [AWS Products] (http://aws.amazon.com/products/)
 
-### Table of contents
+## Table of contents
+
 * [Obtain your NewsCred AWS credential] (#obtain-your-newscred-aws-credential)
-* [Login to AWS console for the first time] (#login-to-aws-console-for-the-first-time)
+* [AWS Console login] (#aws-console-login)
 * [Setup Multi Factor Authentication (MFA) and update your credentials] (#setup-multi-factor-authentication-and-update-your-credentials)
+* [AWS products used in NewsCred] (#aws-products-used-in-newscred)
+    * EC2 
+	* EBS 
+	* ELB 
+	* S3 
+	* RDS 
+	* ElastiCache 
+	* Cloudfront
+	* Route 53
+	* Cloudwatch
+* [AWS API and CLI tools] (#aws-api-and-cli-tools)
+* [Hands on training resources] (#hands-on-training-resources)
+* [AWS Resources] (#aws-resources)
+    * AWS Documentation
+    * Articles and tutorials
+    *   
 
-
-### Obtain your NewsCred AWS credential
+## Obtain your NewsCred AWS credential
 
 Contact someone in DevOps team for your AWS access credentials (user ID, password, access key ID and secret access key). 
 You can contact over email (devops@newscred.com) or in hipchat room (DevOps). 
@@ -25,9 +41,11 @@ You need user ID and password for AWS console login and access key ID with secre
 
 Please keep your credentials secure and rotate them on regular basis.
 
-### Login to AWS console for the first time
+## AWS Console login
 
-AWS Console login url: https://newscred.signin.aws.amazon.com/console
+The AWS Management Console is a single destination to manage all AWS resources, from EC2 instances to S3 objects. You can use the Console to perform any number of tasks, from deploying new applications to monitoring the health of your application.
+
+NewsCred's AWS Console login alias url: https://newscred.signin.aws.amazon.com/console
 
 Login with the provided user ID and password. 
 
@@ -38,7 +56,7 @@ After initial login please go to https://console.aws.amazon.com/iam/home?region=
 3. Choose 'Replace existing password with new custom password'.
 4. Change your password with a secure one.
 
-### Setup Multi Factor Authentication and update your credentials
+## Setup Multi Factor Authentication and update your credentials
 
 You have to enable multi factor authentication (MFA):
 
@@ -53,4 +71,35 @@ You have to enable multi factor authentication (MFA):
 
 You should be good to go.
 
-### 
+## AWS products used in NewsCred
+
+### EC2
+
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) cloud. Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage. Amazon EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity, reducing your need to forecast traffic.
+
+    * [Getting Started with Amazon EC2 Linux Instances] (#http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
+    * [Launch an Amazon EC2 Instance] (#http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-launch-instance_linux.html)
+    * [Connect to Your Instance] (#http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-connect-to-instance-linux.html)
+    * [Add a Volume to Your Instance] (#http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-add-volume-to-instance.html)
+    * [Clean Up Your Instance and Volume] (#http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-clean-up-your-instance.html)
+
+(Please note that we have our own process to launch a new instance, EBS volume management and instance/volume. We will discuss them in relavant section shortly)
+
+## Hands on training resources
+
+Before you start using our actual AWS console we suggest you try the simulator console for a while and practice few basics here.
+
+Go to this simulator console lab link and login with the following credentials: 
+https://run.qwiklab.com/
+Login ID: rana@newscred.com
+Login password: qwe90qwe
+
+Launching EC2 Instances: [Lab] (#https://run.qwiklab.com/focuses/preview/1024)
+Elastic block store: [Lab] (#https://run.qwiklab.com/focuses/preview/1045)
+Using Amazon RDS: [Lab] (#https://run.qwiklab.com/focuses/preview/1034)
+
+
+## AWS Resources
+
+    * [AWS Documentation] (#https://aws.amazon.com/documentation/?nc1=h_d_dm)
+    * [Articles and tutorials] (#http://aws.amazon.com/articles/?nc1=h_d_ta)
